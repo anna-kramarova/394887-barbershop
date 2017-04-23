@@ -1,0 +1,24 @@
+body {
+  font-family: "PT Sans Narrow", "Arial", serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.content-title h1 {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.catalog-item h2 {
+  font-family: "PT Sans", "Arial", serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #000000;
+}
