@@ -21,7 +21,7 @@ body {
 
 }
 .main-header {
-  margin-bottom: 55px; /**/
+  margin-bottom: 55px;
 }
 
 .index-logo {
@@ -43,8 +43,6 @@ body {
 .content-title {
   width: 800px;
   margin-bottom: 45px;
-
-
 }
 
 .main-footer {
@@ -100,6 +98,7 @@ body {
 
 .paginator a {
   display: inline-block;
+  vertical-align: baseline;
   width: 43px;
   height: 43px;
   margin-right: 7px;
@@ -129,6 +128,7 @@ body {
   width: 140px;
   height: 149px;
   display: inline-block;
+  vertical-align: baseline;
   margin-right: 20px;
 }
 
