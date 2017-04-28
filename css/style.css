@@ -41,7 +41,6 @@ body {
 }
 
 .content-title {
-  width: 800px;
   margin-bottom: 45px;
 }
 
@@ -91,14 +90,12 @@ body {
 }
 
 .paginator {
-  width: 300px;
   padding-left: 10px;
   font-size: 14px;
 }
 
 .paginator a {
   display: inline-block;
-  vertical-align: baseline;
   width: 43px;
   height: 43px;
   margin-right: 7px;
@@ -107,20 +104,17 @@ body {
 /*-- Страница товара --*/
 
 .gallery {
-  width: 480px;
+  width: 460px;
   float: left;
   margin: 0px;
 }
 
 .mainphoto-block {
-  width: 460px;
   height: 498px;
   margin-bottom: 21px;
 }
 
 .miniphoto-block {
-  width: 480px;
-  height: 149px;
   font-size: 0px;
 }
 
@@ -128,8 +122,12 @@ body {
   width: 140px;
   height: 149px;
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: top;
   margin-right: 20px;
+}
+
+.miniphoto-block a:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .item-info {
@@ -139,12 +137,12 @@ body {
 }
 
 .availability-status {
-  width: 195px;
+  max-width: 195px;
   float: left;
 }
 
 .vendor-code {
-  width: 195px;
+  max-width: 195px;
   float: right;
 }
 
@@ -154,7 +152,6 @@ body {
 
 .item-buttons {
   width: 187px;
-  height: 43px;
   margin-bottom: 64px;
 }
 
